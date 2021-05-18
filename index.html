@@ -16,18 +16,18 @@
   </head>
   <body>
     <header>
-      <nav class="navbar z-index">
+      <nav class="navbar z-index flex">
         <div class="logo">
           <a>g.</a>
         </div>
-        <ul class="navbar--ul">
+        <ul class="navbar--ul flex">
           <li><a href="#">home</a></li>
           <li><a href="#about">about</a></li>
           <li><a href="#bands">bands</a></li>
           <li><a href="#buy">buy</a></li>
         </ul>
       </nav>
-      <div class="hero">
+      <div class="hero flex">
         <div class="hero--overlay"></div>
         <h1 class="z-index">gameover.</h1>
         <p class="hero--p z-index">
@@ -35,7 +35,7 @@
           soluta sunt aliquid consectetur reiciendis, autem molestias assumenda
           officia ab!
         </p>
-        <button class="hero--btn z-index"><a href="#buy">buy tickets.</a></button>
+        <button class="btn z-index"><a href="#buy">buy tickets.</a></button>
         <div class="hero--arrow z-index">
           <a href="#about"> <i class="fas fa-chevron-down"></i></a>
         </div>
@@ -43,26 +43,26 @@
     </header>
     <main>
       <!-- About Section -->
-      <section class="about--section" id="about">
+      <section class="about--section flex" id="about">
           <div class="about--img">
             <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
           </div>
        <div class="about--info">
-        <h2 class="about--title">Music & Entertainment</h2>
+        <h2 class="title">Music & Entertainment</h2>
         <p class="about--p">Gameover fest features a diverse lineup of 150+ musicians and more every year. With 10+ performance stages, 4 campground party barns, and entertainment that goes ALL NIGHT LONG, you will NOT be bored.</p>
         </h2>
-        <button class="about--btn"><a href="#bands">See the lineup</a></button>
+        <button class="btn"><a href="#bands">See the lineup</a></button>
        </div> 
       </section>
 
       <!-- Bands Section -->
       <section class="bands--section" >
-        <div class="bands--info" id="bands">
-        <h2 class="bands--title">Upcoming Lineup</h2>
+        <div class="bands--info flex" id="bands">
+        <h2 class="title">Upcoming Lineup</h2>
         <p class="bands--p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At doloremque harum quasi. Quia, illo possimus?</p>
         <hr>
       </div>
-      <div class="bands--container">
+      <div class="bands--container flex">
         <div class="band--card">
           <img src="https://images.kerrangcdn.com/A-Day-To-Remember-promo-April-2020-credit-Jimmy-Fontaine.jpg?auto=compress&fit=crop&w=1200" alt="">
           <h2>A day to remember</h2>
@@ -88,8 +88,8 @@
       <section class="contact" id="buy">
         <div class="contact--overlay"></div>
         
-        <div class="contact--container">
-      <h2 class='contact--title'>Buy tickets</h2>
+        <div class="contact--container flex">
+      <h2 class='title'>Buy tickets</h2>
       <p class="contact--p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure dolorum ex deleniti fugit natus saepe.</p>      
       <form>
         <label for="fname"></label>
@@ -98,13 +98,13 @@
         <label for="lname"></label>
         <input type="text" id="lname" name="lastname" placeholder="Last Name">
       </form>
-      <button class="btn--buy">Buy Now</button>
+      <button class="btn">Buy Now</button>
     </div> 
     </section>
     </main>
-    <footer>
+    <footer class="flex">
       <div class="footer--container">
-        <div class="footer--info">
+        <div class="footer--info flex">
       <h3 class="footer-title">gameover<br>fest.</h3>
       <div class="contact--footer">
         <h3>Contact</h3>
