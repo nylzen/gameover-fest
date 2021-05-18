@@ -1,4 +1,5 @@
 # Trabajo Practico de Maquetacion
+![Alt text](https://github.com/nylzen/gameover-fest/blob/master/preview/preview.jpeg)
 
 El trabajo consistia en crear una landing page para un festival de musica.
 
